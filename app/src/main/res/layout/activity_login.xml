@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtlogin"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLogin"
+        android:hint="@string/hintlogin"
+        />
+
+
+    <TextView
+        android:id="@+id/tvSenha"
+        android:layout_below="@id/etLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtsenha"
+
+        />
+
+    <EditText
+        android:id="@+id/etSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSenha"
+
+        android:hint="@string/hintsenha"
+        />
+
+    <Button
+        android:id="@+id/btConectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSenha"
+        android:text="@string/botaoLogin"
+        android:layout_marginTop="10dp"
+        android:onClick="logar"
+        android:textSize="16dp"
+        />
+
+
+</RelativeLayout>

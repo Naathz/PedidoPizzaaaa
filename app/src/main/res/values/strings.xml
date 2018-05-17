@@ -1,0 +1,9 @@
+<resources>
+    <!--área para deixar escrito em cima o login (que não altera) e o hint-->
+    <string name="app_name">Hungry4Pizza</string>
+    <string name="txtlogin">Login</string>
+    <string name="hintlogin">Informe o login</string>
+    <string name="txtsenha">Senha</string>
+    <string name="hintsenha">Informe sua senha</string>
+    <string name="botaoLogin">Conectar</string>
+</resources>
